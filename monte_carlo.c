@@ -18,7 +18,7 @@ float mc_pi(int n)
     float y = frandom();
     float z = x*x + y*y ;
     
-    if (z<=1)
+    if (z<1)
     {
       count++;
     }
